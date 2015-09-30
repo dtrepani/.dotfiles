@@ -1,13 +1,13 @@
 :: Link each dotfile in the directory to its home counterpart.
-:: Will not properly link "shell_prompt.sh" or delete dotfiles.
-:: 		mklink /H %HOME%\.shell_prompt.sh %HOME%\.dotfiles\shell_prompt.sh
+:: Will not properly link "shell_prompt.sh" or delete existing dotfiles in home directory.
 :: Reminders:
-::		- Run Vundle :PluginInstall
+::		- mklink /H %HOME%\.shell_prompt.sh %HOME%\.dotfiles\shell_prompt.sh
 ::		- Install Powerline Fonts (Currently used: DejaVu 10pt)
-::		- Add pathogen:
-::				curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
-::				cd ~/.vim/bundle && git clone git://github.com/tpope/vim-sensible.git
-::		- Add vundle: git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+::		- Add Pathogen:
+::			- curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+::			- cd ~/.vim/bundle && git clone git://github.com/tpope/vim-sensible.git
+::		- Add Vundle: git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+::			- Run Vundle :PluginInstall
 
 @echo off
 
