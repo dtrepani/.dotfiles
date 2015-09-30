@@ -7,6 +7,7 @@
 ::		- Add pathogen:
 ::				curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 ::				cd ~/.vim/bundle && git clone git://github.com/tpope/vim-sensible.git
+::		- Add vundle: git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 @echo off
 
