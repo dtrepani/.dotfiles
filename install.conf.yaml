@@ -1,0 +1,13 @@
+- clean: ['~']
+
+- link:
+    ~/.bash_profile: bash_profile
+    ~/.bashrc: bashrc
+    ~/.gitconfig: gitconfig
+    ~/.vimrc: vimrc
+    ~/.vim: vim/
+    ~/.shell_prompt.sh: shell_prompt.sh
+    ~/.minttyrc: minttyrc
+
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]
