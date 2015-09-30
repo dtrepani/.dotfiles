@@ -1,6 +1,9 @@
 # Reminders:
 #		- Run Vundle :PluginInstall
 #		- Install Powerline Fonts (Currently used: DejaVu 10pt)
+#		- Add pathogen:
+#				curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+#				cd ~/.vim/bundle && git clone git://github.com/tpope/vim-sensible.git
 
 - clean: ['~']
 
