@@ -9,13 +9,13 @@ attrib +h dotbot
 
 :: Cycle through files
 for %%i in (%HOME%\.dotfiles\*) do (
-	@echo -- Linking: %%~ni
+	@echo -- Linking file: %%~ni
 	mklink /H %HOME%\.%%~ni %HOME%\.dotfiles\%%~ni
 )
 
 :: Cycle through subdirectories
 for /D %%i in (%HOME%\.dotfiles\*) do (
-	@echo -- Linking: %%~ni
+	@echo -- Linking directory: %%~ni
 	mklink /J %HOME%\.%%~ni %HOME%\.dotfiles\%%~ni
 )
 
