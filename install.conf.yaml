@@ -1,3 +1,7 @@
+# Reminders:
+#		- Run Vundle :PluginInstall
+#		- Install Powerline Fonts (Currently used: DejaVu 10pt)
+
 - clean: ['~']
 
 - link:

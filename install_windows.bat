@@ -1,6 +1,9 @@
 :: Link each dotfile in the directory to its home counterpart.
 :: Will not properly link "shell_prompt.sh" or delete dotfiles.
-:: shell_prompt.sh link: mklink /H %HOME%\.shell_prompt.sh %HOME%\.dotfiles\shell_prompt.sh
+:: 		mklink /H %HOME%\.shell_prompt.sh %HOME%\.dotfiles\shell_prompt.sh
+:: Reminders:
+::		- Run Vundle :PluginInstall
+::		- Install Powerline Fonts (Currently used: DejaVu 10pt)
 
 @echo off
 
