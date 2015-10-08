@@ -53,3 +53,19 @@ colorscheme papercolor
 
 " Remaps
 nnoremap <silent><C-p> :CtrlSpace O<CR>
+
+" ConEmu
+if !has("gui_running") && !empty($CONEMUBUILD)
+    set term=xterm
+    set mouse=a
+    inoremap <Esc>[62~ <C-X><C-E>
+    inoremap <Esc>[63~ <C-X><C-Y>
+    nnoremap <Esc>[62~ <C-E>
+    nnoremap <Esc>[63~ <C-Y>
+    set t_Co=256
+    let &t_AB="\e[48;5;%dm"
+    let &t_AF="\e[38;5;%dm"
+    let g:airline_theme='zenburn'
+    colorscheme zenburn
+endif
+
