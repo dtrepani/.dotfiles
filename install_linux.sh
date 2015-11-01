@@ -7,7 +7,7 @@
 #			- curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 #			- cd ~/.vim/bundle && git clone git://github.com/tpope/vim-sensible.git
 #		- Add Vundle: git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-#			- Run Vundle :PluginInstal
+#			- Run Vundle :PluginInstall
 
 shopt -s extglob
 
